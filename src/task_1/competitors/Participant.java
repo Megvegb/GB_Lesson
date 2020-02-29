@@ -9,7 +9,8 @@ public interface Participant {
 
   void printInfo(String result); // метод печатает в консоль результат работы jump, run
 
-  void info(); // метод выводит в консоль true или false
+  void info(); // метод выводит в консоль true или false.
+  //123
 
   boolean isOnDistance();
 }

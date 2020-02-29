@@ -25,7 +25,7 @@ public class Human implements Participant {
         if (maxRunDist >= length)
             result = "пробежал";
         else if (maxRunDist < 0)
-            result = "побежал в обратную сторону";
+            result = "побежал в обратную сторону"; // обработка отрицательного значения
         else {
             result = "не пробежал";
             onDistance = false;

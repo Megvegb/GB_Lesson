@@ -2,7 +2,7 @@ package task_1.barriers;
 
 import task_1.competitors.Participant;
 
-public class Wall implements Barriers {
+public class Wall implements Barriers { // применение интерфейса
     private int weight;
 
     public Wall(int weight){

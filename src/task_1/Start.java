@@ -1,6 +1,7 @@
 /**
  * @Autor Medvedev Vladimir
  * @Group GU_Android_394
+ *
  */
 
 package task_1;
@@ -19,7 +20,7 @@ public class Start {
     public static void main(String[] args) {
         Participant[] participants = {
                 new Human("Иван"),
-                new Sportsman("Макс", 3000, 4),
+                new Sportsman("Макс", 3000, 4), // применение переопределенного конструктора
                 new Cat("Барсик"),
                 new Bot("Нано")
         };

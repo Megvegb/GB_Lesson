@@ -5,7 +5,7 @@ public class Sportsman extends Human { // класс супер человека
     private int maxRunDist;
     private int maxJumpHgt;
 
-    public Sportsman (String name, int maxRunDist, int maxJumpHgt) {
+    public Sportsman (String name, int maxRunDist, int maxJumpHgt) { // конструктор для внесения максимальных значений
         super(name);
         this.maxRunDist = maxRunDist;
         this.maxJumpHgt = maxJumpHgt;
