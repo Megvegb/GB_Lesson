@@ -32,7 +32,7 @@ public class Bot implements Participant {
         if (maxRunDist >= length)
             result = "пробежал";
         else if (maxRunDist < 0)
-            result = "побежал в обратную сторону";
+            result = "побежал в обратную сторону"; // обработка отрицательного значениея
         else {
             result = "не пробежал";
             onDistance = false;
@@ -47,7 +47,7 @@ public class Bot implements Participant {
             result = "перепрыгнул";
 
         else if (maxJumpHgt < 0)
-            result = "пролез под препятствием";
+            result = "пролез под препятствием"; // обработка отрицательного значениея
         else {
             result = "не допрыгнул";
             onDistance = false;

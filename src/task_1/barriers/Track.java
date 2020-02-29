@@ -2,7 +2,7 @@ package task_1.barriers;
 
 import task_1.competitors.Participant;
 
-public class Track implements Barriers {
+public class Track implements Barriers { // интерфейс беговая дорожка
     private int length;
 
     public Track(int length) {

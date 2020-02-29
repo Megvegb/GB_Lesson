@@ -48,7 +48,7 @@ public class Cat implements Participant {
             result = "перепрыгнул";
 
         else if (maxJumpHgt < 0)
-            result = "пролез под препятствием";
+            result = "пролез под препятствием"; // обработка отрицательного значениея
         else {
             result = "не допрыгнул";
             onDistance = false;
